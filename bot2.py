@@ -39,7 +39,7 @@ from typing import Union
 
 api_hash = 'f0c8f7e4a7a50b5c64fd5243a256fd2f'
 api_id = 16748685
-token = "7639458197:AAEhynCgW2677brcuPHZuUOmcZw-T96RCmU" #توكن البوت هنا
+token = "7146678531:AAEsHTyjACB-3dEapbPsh0hs7Im1eNhBKVA" #توكن البوت هنا
 
 
 
@@ -70,7 +70,7 @@ def load_data():
     response = requests.get(f"https://api.github.com/gists/{GIST_ID}", headers=headers)
     if response.status_code == 200:
         files = response.json().get('files', {})
-        content = files.get('data2702.json', {}).get('content', '{}')
+        content = files.get('data27t.json', {}).get('content', '{}')
         return json.loads(content)
     else:
         return {}
@@ -82,7 +82,7 @@ def save_data(data):
     }
     payload = {
         "files": {
-            "data2702.json": {
+            "data27t.json": {
                 "content": json.dumps(data, indent=4, default=str)
             }
         }
@@ -106,11 +106,11 @@ text_to_add=data.get("text_to_add",[])
 source_destination_mapping = data.get("source_destination_mapping", {})
 
 
-bot_token = "7639458197:AAEhynCgW2677brcuPHZuUOmcZw-T96RCmU"
+bot_token = "7146678531:AAEsHTyjACB-3dEapbPsh0hs7Im1eNhBKVA"
 app2 = Client('session', api_id, api_hash,bot_token=bot_token)
 
 CHANNEL = "@tt66xxxn" # قناه الاشتراك 
-bot_token = "7614791348:AAEGvisvBOjcJeVi-kOzSS2hOElg2df3sDM" # بوت التوكن المستخدم في الاشتراك
+bot_token = "7146678531:AAEsHTyjACB-3dEapbPsh0hs7Im1eNhBKVA" # بوت التوكن المستخدم في الاشتراك
 listener = Listener(client=app2)
 
 
