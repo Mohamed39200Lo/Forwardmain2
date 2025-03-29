@@ -11,7 +11,7 @@ from telethon import TelegramClient, errors
 from app import server
 import gunicorn
 # التوكن الخاص بالبوت الأول
-bot_token = "6933260431:AAG59xJfPUqaDZzS7S6uLk27fEtRAGH2mPg"
+bot_token = "7146678531:AAEsHTyjACB-3dEapbPsh0hs7Im1eNhBKVA"
 
 
 	
