@@ -39,7 +39,7 @@ from typing import Union
 
 api_hash = 'f0c8f7e4a7a50b5c64fd5243a256fd2f'
 api_id = 16748685
-token = "7146678531:AAGFgnmn9qhTZ16Y5laU-dus_PvQ2vBC3lY" #توكن البوت هنا
+token = "8183370739:AAGhgGTYfaiU8BfSRtO1F1lR8-M-V_4oKI0" #توكن البوت هنا
 
 
 
