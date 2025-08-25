@@ -106,11 +106,11 @@ text_to_add=data.get("text_to_add",[])
 source_destination_mapping = data.get("source_destination_mapping", {})
 
 
-bot_token = "7146678531:AAGFgnmn9qhTZ16Y5laU-dus_PvQ2vBC3lY"
+bot_token = "8183370739:AAGhgGTYfaiU8BfSRtO1F1lR8-M-V_4oKI0"
 app2 = Client('session', api_id, api_hash,bot_token=bot_token)
 
 CHANNEL = "@tt66xxxn" # قناه الاشتراك 
-bot_token = "7146678531:AAGFgnmn9qhTZ16Y5laU-dus_PvQ2vBC3lY" # بوت التوكن المستخدم في الاشتراك
+bot_token = "8183370739:AAGhgGTYfaiU8BfSRtO1F1lR8-M-V_4oKI0" # بوت التوكن المستخدم في الاشتراك
 listener = Listener(client=app2)
 
 
